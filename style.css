@@ -63,6 +63,7 @@ font-weight: 600;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .text{
@@ -71,15 +72,14 @@ font-weight: 600;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding-right:  
-    20px;
+
 }
 .text h1{
-    font-size: 76px;
+    font-size: 2.5rem;
     margin: 0;
 }
 .text h3{
-    font-size: 50px;
+    font-size:1.5rem;
     line-height: 0;
 }
 .myimg{
@@ -88,7 +88,7 @@ font-weight: 600;
     align-items: start;
     overflow: hidden;
     height: 500px;
-    width: 50%;
+    flex: 1;
     border-radius: 30px;
 }
 
